@@ -6,10 +6,10 @@ Nome: FELIPE FARIAS VIEIRA
 RA: 2040482012003
 Email: feliep8@gmail.com
 
-LUÍZA DELGADO BALDO
+Nome: LUÍZA DELGADO BALDO
 RA: 2040482012036
 Email: luiza.baldo@fatec.sp.gov.br
 
-RODRIGO KENJI NAKATSU
+Nome: RODRIGO KENJI NAKATSU
 RA: 2040482012006
 Email: rodrigo.nakatsu@fatec.sp.gov.br

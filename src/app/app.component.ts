@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Recomendacao } from './recomendacoes/Recomendacao.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProvaP2';
+
+  recomendacoes: Recomendacao [] = []
+
+  onRecomendacaoInserida(recomendacao){
+    this.recomendacoes = [...this.recomendacoes, recomendacao]
+    console.log(this.recomendacoes)
+  }
+
 }

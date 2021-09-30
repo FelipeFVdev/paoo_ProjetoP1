@@ -1,0 +1,35 @@
+<header>
+    <mat-card>
+    <form (submit)="onAdicionarRecomendacao(recomendacaoForm)" #recomendacaoForm="ngForm">
+
+    <mat-form-field appearance="fill">
+      <mat-label>Digite seu nome</mat-label>
+      <input
+        type="text"
+        matInput
+        name="nome"
+        ngModel
+        />
+
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Digite a recomendação</mat-label>
+      <input
+        type="text"
+        matInput
+        name="texto"
+        ngModel
+        required
+        />
+
+    </mat-form-field>
+    <button
+          mat-stroked-button color="warn">Inserir uma recomendação
+      </button>
+    </form>
+  </mat-card>
+</header>
+
+
+

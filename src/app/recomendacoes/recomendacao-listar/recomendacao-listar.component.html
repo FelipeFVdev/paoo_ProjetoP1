@@ -1,0 +1,10 @@
+<mat-accordion *ngIf="recomendacoes.length > 0">
+
+  <mat-expansion-panel *ngFor="let cli of recomendacoes">
+      <mat-expansion-panel-header>Nome: {{cli.nome}}</mat-expansion-panel-header>
+    <p>Recomendação: {{cli.texto}}</p>
+  </mat-expansion-panel>
+
+</mat-accordion>
+
+<p *ngIf="recomendacoes.length <= 0" class="mat-body-1" styles="text-align: center;">Nenhuma recomendação inserida</p>
