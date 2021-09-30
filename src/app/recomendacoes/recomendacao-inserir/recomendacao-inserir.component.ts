@@ -3,7 +3,7 @@ import { NgForm } from "@angular/forms";
 import { Recomendacao } from "../Recomendacao.model";
 
 @Component({
-  selector: 'app-recomendacao-inserir',
+  selector: 'recomendacao-inserir',
   templateUrl: './recomendacao-inserir.component.html',
   styleUrls: ['./recomendacao-inserir.component.css']
 })
